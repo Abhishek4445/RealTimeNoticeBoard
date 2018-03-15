@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e8eaf6"
+    android:padding="8dp"
+    tools:context="tk.developeramit.realtimenoticeboard.RegistrationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Registration"
+        android:textColor="#e91e63"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#bdbdbd" />
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/username_resister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="User Name" />
+
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:onClick="onRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e91e63"
+        android:textColor="#ffffff"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp"
+        android:text="Register"
+        />
+
+    <Button
+        android:id="@+id/link_button_to_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:onClick="onLogin"
+        android:background="#e8eaf6"
+        android:text="Already Registered? Login"
+        android:textColor="#0091ea" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RealTimeNoticeBoard</string>
+    <string name="login_button">Login</string>
+    <string name="signup_link">Not yet Registered, Click here</string>
+</resources>
